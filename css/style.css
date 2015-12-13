@@ -109,8 +109,22 @@ h1 {
   margin-bottom: .5em;
 }
 
+h2 {
+  padding: 15px 0 15px 0;
+  font-size: 32px;
+  color: #005375;
+}
+
 h3 {
-  font-size: 30px;
+  padding: 15px 0 15px 0;
+  font-size: 26px;
+  color: #005375;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #005375;
 }
 
 p {
@@ -325,27 +339,26 @@ header {
   content: "\78"; /* Close icon */
 }
 
+/* END OF RESPONSIVE NAVIGATION */
+
+/* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
+.top-border {
+  height: 120px;
+  background-color: #005375;
+  opacity: 0.82;
+  text-align: center;
+  color: white;
+}
+
+.top-border h4 {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+}
+
 body {
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
-}
-
-/* Typography */
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 28px;
-}
-
-h3 {
-  font-size: 20px;
-  color: #005375;
-}
-
-a {
-  text-decoration: none;
 }
 
 .container {
@@ -400,6 +413,7 @@ a {
 
 .slide h2 {
   font-weight: 300;
+  font-size: 26px;
   margin-bottom: 50px;
 }
 
@@ -418,20 +432,22 @@ a {
 /* About Us Page */
 .about-us {
   margin: 100px auto 0 auto;
-  padding-bottom: 54px;
+  padding: 0 15px 54px 15px;
   max-width: 600px;
 }
 
 .footer {
-  text-align: center;
   height: 220px;
+  padding-bottom: 20px;
   border-top: 3px solid #D8D8D8;
   background-color: #005375;
+  text-align: center;
   color: white;
 }
 
 .footer h3 {
   margin-top: 24px;
+  color: white;
 }
 
 .footer p {
