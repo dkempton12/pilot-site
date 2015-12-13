@@ -130,7 +130,7 @@ h4 {
 p {
   /*width: 90%;*/
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 
@@ -429,33 +429,52 @@ body {
   height: auto;
 }
 
-/* About Us Page */
-.about-us {
-  margin: 10px auto 0 auto;
-  padding: 0 15px 54px 15px;
+/* About Us Image Grid */
+.about-images h2 {
+  margin: 30px auto 20px auto;
   max-width: 600px;
 }
-/* About Us Image Grid */
-#about-images .grid {
+.about-images .grid {
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .grid {
   max-width: 600px;
 }
+
 .grid li {
   display: inline-block;
   margin-left: 5px;
 }
 
 .grid img {
-  height: 88px;
-  width: 110px;
+  height: 78px;
+  width: 100px;
 }
 /* End of About Us Logo Grid */
 
+/* About Us Text */
+.about-us {
+  margin: 0 auto;
+  padding: 0 15px 54px 15px;
+  max-width: 600px;
+}
+
+.about-us hr {
+  text-align: center;
+  height: 3px;
+  width: 25%;
+  margin: 40px auto;
+  background-color: #005375;
+}
+
+.about-us p {
+  padding-bottom: 10px;
+}
+
 .footer {
-  height: 220px;
+  height: 250px;
   padding-bottom: 20px;
   border-top: 3px solid #D8D8D8;
   background-color: #005375;
@@ -524,6 +543,6 @@ body {
   margin-bottom: 50px;
 }
 .grid {
-  max-width: 300px;
+  max-width: 320px;
 }
 }
