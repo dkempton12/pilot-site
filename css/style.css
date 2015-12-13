@@ -431,10 +431,28 @@ body {
 
 /* About Us Page */
 .about-us {
-  margin: 100px auto 0 auto;
+  margin: 10px auto 0 auto;
   padding: 0 15px 54px 15px;
   max-width: 600px;
 }
+/* About Us Image Grid */
+#about-images .grid {
+  margin: 0 auto;
+}
+
+.grid {
+  max-width: 600px;
+}
+.grid li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.grid img {
+  height: 88px;
+  width: 110px;
+}
+/* End of About Us Logo Grid */
 
 .footer {
   height: 220px;
@@ -504,5 +522,8 @@ body {
   font-weight: 300;
   font-size: 22px;
   margin-bottom: 50px;
+}
+.grid {
+  max-width: 300px;
 }
 }
