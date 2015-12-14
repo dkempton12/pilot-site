@@ -117,6 +117,8 @@ h2 {
 
 h3 {
   padding: 15px 0 15px 0;
+  margin: 0 auto;
+  max-width: 600px;
   font-size: 26px;
   color: #005375;
 }
@@ -130,6 +132,7 @@ h4 {
 p {
   /*width: 90%;*/
   margin: 0 auto;
+  max-width: 600px;
   font-size: 15px;
 }
 
@@ -141,7 +144,7 @@ p {
 header {
   /*border-top: 3px solid #D8D8D8;*/
   border-bottom: 1px solid #005375;
-  background: #fff;
+  background-color: #fff;
   position: fixed;
   z-index: 9999;
   width: 100%;
@@ -252,7 +255,7 @@ header {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   border-top: 1px solid white;
   text-decoration: none;
-  background: #fff;
+  background-color: #fff;
   padding: 0.7em 1em;
   color: #005375;
   font-weight: 700;
@@ -262,12 +265,14 @@ header {
 
 .nav-collapse a:hover {
   background-color: #005375;
+  opacity: 0.88;
   color: white;
 }
 
 .nav-collapse a:active,
 .nav-collapse .active a {
-  background: #005375;
+  background-color: #005375;
+  opacity: 0.88;
   color: white;
 }
 
@@ -344,7 +349,7 @@ header {
 /* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
 .top-border {
   height: 120px;
-  background-color: #005375;
+  background-color: black;
   opacity: 0.82;
   text-align: center;
   color: white;
@@ -477,13 +482,28 @@ body {
   padding-bottom: 10px;
 }
 
+.criteria {
+  margin-top: 20px;
+  padding: 0 15px 30px 15px;
+}
+
+.criteria ul {
+   margin: 0 auto;
+   padding: 10px 0 10px 100px;
+   max-width: 600px;
+   min-width: 320px;
+   list-style-type: square;
+}
+
 .footer {
   height: 250px;
   padding-bottom: 20px;
   border-top: 3px solid #D8D8D8;
   background-color: #005375;
+  opacity: 0.88;
   text-align: center;
   color: white;
+  overflow: none;
 }
 
 .footer h3 {
@@ -552,5 +572,8 @@ body {
 
 .about-images p {
   display: block;
+}
+.criteria ul {
+  padding-left: 50px;
 }
 }
