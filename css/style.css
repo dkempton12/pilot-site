@@ -124,8 +124,17 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
+  color: #005375;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 1px;*/
+  padding: 10px 0 10px 0;
   color: #005375;
 }
 
@@ -142,7 +151,6 @@ p {
 --------------------------------------------- */
 
 header {
-  /*border-top: 3px solid #D8D8D8;*/
   border-bottom: 1px solid #005375;
   background-color: #fff;
   position: fixed;
@@ -150,7 +158,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  height: 70px;
+  height: 52px;
 }
 
 .logo {
@@ -166,6 +174,11 @@ header {
 
 .logo span {
   color: #D8D8D8;
+}
+
+.logo img {
+  width: 127px;
+  height: auto;
 }
 
 
@@ -258,7 +271,9 @@ header {
   background-color: #fff;
   padding: 0.7em 1em;
   color: #005375;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
   width: 100%;
   float: left;
 }
@@ -278,7 +293,7 @@ header {
 
 @media screen and (min-width: 40em) {
   .nav-collapse a {
-    padding: 1.50em 1em;
+    padding: 1.50em 1.75em;
     text-align: center;
     border-top: 0;
     float: left;
@@ -418,7 +433,7 @@ body {
 .slide h2 {
   font-weight: 300;
   font-size: 26px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .slide .fa-quote-left {
@@ -427,6 +442,23 @@ body {
 
 .slide .fa-quote-right {
   font-size: 18px;
+}
+
+/* New Image Layout for Home Page */
+.home-images {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.home-images img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #005375;
+}
+
+.properties li {
+  display: inline-block;
+  margin-left: 30px;
 }
 
 .cycle-slideshow img {
