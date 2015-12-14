@@ -349,8 +349,7 @@ header {
 /* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
 .top-border {
   height: 120px;
-  background-color: black;
-  opacity: 0.82;
+  background-color: #506983;
   text-align: center;
   color: white;
 }
@@ -498,7 +497,7 @@ body {
 .footer {
   height: 250px;
   padding-bottom: 20px;
-  border-top: 3px solid #D8D8D8;
+  border-top: 2px solid #506983;
   background-color: #005375;
   opacity: 0.88;
   text-align: center;
