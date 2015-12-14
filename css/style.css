@@ -434,6 +434,10 @@ body {
   margin: 30px auto 20px auto;
   max-width: 600px;
 }
+
+.about-images p {
+  display: none;
+}
 .about-images .grid {
   margin: 0 auto;
   padding-bottom: 40px;
@@ -543,6 +547,10 @@ body {
   margin-bottom: 50px;
 }
 .grid {
-  max-width: 320px;
+  display: none;
+}
+
+.about-images p {
+  display: block;
 }
 }
