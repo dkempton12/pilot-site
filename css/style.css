@@ -158,7 +158,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  height: 52px;
+  height: 70px;
 }
 
 .logo {
@@ -179,6 +179,7 @@ header {
 .logo img {
   width: 127px;
   height: auto;
+  padding-top: 10px;
 }
 
 
@@ -271,9 +272,7 @@ header {
   background-color: #fff;
   padding: 0.7em 1em;
   color: #005375;
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
+  /*font-weight: 500;*/
   width: 100%;
   float: left;
 }
@@ -526,6 +525,14 @@ body {
    list-style-type: square;
 }
 
+.pilot-staff {
+  /*padding: 0 15px 0 15px;*/
+}
+
+.pilot-staff h2 {
+  margin: 0 auto;
+  max-width: 600px;
+}
 .footer {
   height: 250px;
   padding-bottom: 20px;
