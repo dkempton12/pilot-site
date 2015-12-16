@@ -651,81 +651,32 @@ body {
 }
 
 @media screen and (max-width: 720px) {
+  .nav-collapse a {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
   .nav-toggle:before {
     font-size: 60px;
   }
 
-  .nav-collapse a {
-    font-size: 18px;
-    font-weight: 300;
-  }
-
   .slide h2 {
   padding: 0 15px;
   font-weight: 300;
   font-size: 22px;
   margin-bottom: 50px;
 }
+
 .grid {
   display: none;
-}
-
-.about-us p {
-  font-size: 18px;
 }
 
 .about-images p {
   display: block;
 }
 
-.criteria p {
-  font-size: 18px;
-}
-.criteria ul {
-  padding-left: 50px;
-}
-
-.pilot-staff p {
-  font-size: 18px;
-}
-.contact-us h4 {
-  margin-left: 20px;
-}
-.contact-us p {
-  margin-left: 20px;
-  font-size: 18px;
-}
-#map {
-  display: none;
-}
-}
-
-@media screen and (max-width: 320px) {
-    .nav-toggle:before {
-    font-size: 60px;
-  }
-
-  .nav-collapse a {
-    font-size: 18px;
-    font-weight: 300;
-  }
-
-  .slide h2 {
-  padding: 0 15px;
-  font-weight: 300;
-  font-size: 22px;
-  margin-bottom: 50px;
-}
-.grid {
-  display: none;
-}
-
 .about-us p {
   font-size: 18px;
-}
-
-.about-images p {
-  display: block;
 }
 
 .criteria p {
