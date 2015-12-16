@@ -145,6 +145,14 @@ p {
   font-size: 15px;
 }
 
+hr {
+  text-align: center;
+  height: 3px;
+  width: 25%;
+  margin: 40px auto;
+  background-color: #005375;
+}
+
 
 /* ------------------------------------------
   FIXED HEADER
@@ -272,7 +280,9 @@ header {
   background-color: #fff;
   padding: 0.7em 1em;
   color: #005375;
-  /*font-weight: 500;*/
+  font-size: 16px;
+  font-weight: 500;
+  /*text-transform: uppercase;*/
   width: 100%;
   float: left;
 }
@@ -362,14 +372,22 @@ header {
 
 /* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
 .top-border {
-  height: 120px;
-  background-color: #506983;
+  height: 15rem;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.44),
+      rgba(0, 0, 0, 0.44)
+    ), url('../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
   text-align: center;
   color: white;
 }
 
-.top-border h4 {
-  padding-top: 80px;
+.top-border h3 {
+  padding-top: 130px;
   text-align: center;
   color: white;
 }
@@ -526,16 +544,40 @@ body {
 }
 
 .pilot-staff {
-  /*padding: 0 15px 0 15px;*/
+  margin: 0 auto;
+  padding: 0 15px 54px 15px;
+  /*max-width: 600px;*/
 }
 
 .pilot-staff h2 {
   margin: 0 auto;
   max-width: 600px;
 }
+
+.contact-us {
+  padding-bottom: 40px;
+}
+
+.contact-us h3 {
+  text-align: center;
+}
+
+.contact-us hr {
+  height: 2px;
+  width: 5%;
+  margin-top: 20px;
+}
+
+.contact-us h4 {
+  margin: 20px 0 10px 50px;
+}
+
+.contact-us p {
+  margin-left: 50px;
+}
+
 .footer {
-  height: 250px;
-  padding-bottom: 20px;
+  height: 300px;
   border-top: 2px solid #506983;
   background-color: #005375;
   opacity: 0.88;
@@ -613,5 +655,11 @@ body {
 }
 .criteria ul {
   padding-left: 50px;
+}
+.contact-us h4 {
+  margin-left: 20px;
+}
+.contact-us p {
+  margin-left: 20px;
 }
 }
