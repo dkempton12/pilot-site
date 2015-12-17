@@ -26,7 +26,84 @@ a:hover, a:active { text-decoration: none;}
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 /* ------------------------------------------
-  RESPONSIVE NAV STYLES
+  TOPOGRAPHY and LAYOUT
+--------------------------------------------- */
+body {
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  background: #fff;
+  font: normal 100%/1.4 sans-serif;
+}
+
+section {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  padding: 100px 0 0;
+  height: 800px;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1 {
+  padding-top: 22rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: none;  
+}
+
+h2 {
+  padding: 15px 0 15px 0;
+  font-size: 32px;
+  color: #005375;
+}
+
+h3 {
+  padding: 15px 0 15px 0;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 26px;
+  color: #005375;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #005375;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 1px;*/
+  padding: 10px 0 10px 0;
+  color: #005375;
+}
+
+p {
+  /*width: 90%;*/
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 15px;
+}
+
+hr {
+  text-align: center;
+  height: 3px;
+  width: 25%;
+  margin: 40px auto;
+  background-color: #005375;
+}
+/* ------------------------------------------
+   /// RESPONSIVE NAV ///
 --------------------------------------------- */
 .nav-collapse ul {
   margin: 0;
@@ -83,81 +160,9 @@ a:hover, a:active { text-decoration: none;}
     display: none;
   }
 }
-
-/* ------------------------------------------
-  DEMO STYLES
---------------------------------------------- */
-
-body {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  color: #37302a;
-  background: #fff;
-  font: normal 100%/1.4 sans-serif;
-}
-
-section {
-  border-bottom: 1px solid #999;
-  text-align: center;
-  padding: 100px 0 0;
-  height: 800px;
-  width: 100%;
-}
-
-h1 {
-  margin-bottom: .5em;
-}
-
-h2 {
-  padding: 15px 0 15px 0;
-  font-size: 32px;
-  color: #005375;
-}
-
-h3 {
-  padding: 15px 0 15px 0;
-  margin: 0 auto;
-  max-width: 600px;
-  font-size: 26px;
-  color: #005375;
-}
-
-h4 {
-  font-size: 18px;
-  font-weight: 500;
-  color: #005375;
-}
-
-h5 {
-  font-size: 18px;
-  font-weight: 500;
-  /*text-transform: uppercase;*/
-  /*letter-spacing: 1px;*/
-  padding: 10px 0 10px 0;
-  color: #005375;
-}
-
-p {
-  /*width: 90%;*/
-  margin: 0 auto;
-  max-width: 600px;
-  font-size: 15px;
-}
-
-hr {
-  text-align: center;
-  height: 3px;
-  width: 25%;
-  margin: 40px auto;
-  background-color: #005375;
-}
-
-
 /* ------------------------------------------
   FIXED HEADER
 --------------------------------------------- */
-
 header {
   border-bottom: 1px solid #005375;
   background-color: #fff;
@@ -189,12 +194,9 @@ header {
   height: auto;
   padding-top: 10px;
 }
-
-
 /* ------------------------------------------
   MASK
 --------------------------------------------- */
-
 .mask {
   -webkit-transition: opacity 300ms;
   -moz-transition: opacity 300ms;
@@ -226,12 +228,9 @@ header {
     opacity: 0 !important;
   }
 }
-
-
 /* ------------------------------------------
   NAVIGATION STYLES
 --------------------------------------------- */
-
 .fixed {
   position: fixed;
   z-index: 9999;
@@ -275,14 +274,13 @@ header {
 
 .nav-collapse a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  border-top: 1px solid white;
-  text-decoration: none;
-  background-color: #fff;
   padding: 0.7em 1em;
+  border-top: 1px solid white;
+  background-color: #fff;
+  text-decoration: none;
   color: #005375;
   font-size: 16px;
   font-weight: 500;
-  /*text-transform: uppercase;*/
   width: 100%;
   float: left;
 }
@@ -299,33 +297,27 @@ header {
   opacity: 0.88;
   color: white;
 }
-
 @media screen and (min-width: 40em) {
   .nav-collapse a {
-    padding: 1.50em 1.75em;
-    text-align: center;
-    border-top: 0;
-    float: left;
     margin: 0;
+    padding: 1.50em 1.75em;
+    border-top: 0;
+    text-align: center;
+    float: left;
   }
 }
-
 .nav-collapse ul ul a {
   background: #fff;
   padding-left: 2em;
 }
-
 @media screen and (min-width: 40em) {
   .nav-collapse ul ul a {
     display: none;
   }
 }
-
-
 /* ------------------------------------------
   NAV TOGGLE STYLES
 --------------------------------------------- */
-
 @font-face {
   font-family: "responsivenav";
   src:url("../icons/responsivenav.eot");
@@ -336,7 +328,6 @@ header {
   font-weight: normal;
   font-style: normal;
 }
-
 .nav-toggle {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -348,7 +339,6 @@ header {
   height: 55px;
   float: right;
 }
-
 .nav-toggle:before {
   color: #005375; /* Edit this to change the icon color */
   font: normal 40px/55px "responsivenav"; /* Edit font-size (28px) to change the icon size */
@@ -362,13 +352,11 @@ header {
   left: 0;
   top: 0;
 }
-
 .nav-toggle.active:before {
   font-size: 24px;
   content: "\78"; /* Close icon */
 }
-
-/* END OF RESPONSIVE NAVIGATION */
+/* /// END OF RESPONSIVE NAV /// */
 
 /* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
 .top-border {
@@ -392,15 +380,6 @@ header {
   color: white;
 }
 
-body {
-  font-family: 'Roboto';
-  -webkit-font-smoothing: antialiased;
-}
-
-.container {
-  margin: 0 auto;
-}
-
 .intro {
   position: relative;
   background-image: linear-gradient(
@@ -419,38 +398,28 @@ body {
 }
 
 .intro .fa-chevron-down {
-  text-align: center;
   position: absolute;
   margin: 0 auto;
   bottom: 0px;
+  text-align: center;
   font-size: 36px;
   color: white;
 }
 
-.main h1 {
-    padding-top: 22rem;
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    text-shadow: none;  
-}
-
 .slide {
-  padding: 50px 15px 0 15px;
   margin: 0 auto;
-  color: #005375;
   min-width: 300px;
   max-width: 600px;
+  padding: 50px 15px 0 15px;
+  color: #005375;
 }
 
 .slide .mission {
   font-style: italic;
 }
 
-.slide h2 {
+.slide h3 {
   font-weight: 300;
-  font-size: 26px;
-  margin-bottom: 10px;
 }
 
 .slide .fa-quote-left {
@@ -460,16 +429,17 @@ body {
 .slide .fa-quote-right {
   font-size: 18px;
 }
-
 /* New Image Layout for Home Page */
 .home-images {
-  width: 100%;
+  position: relative;
   height: auto;
+  width: 100%;
   padding-bottom: 50px;
 }
+
 .home-images img {
-  width: 300px;
   height: auto;
+  width: 300px;
   border: 1px solid #005375;
 }
 
@@ -519,11 +489,11 @@ body {
 }
 
 .about-us hr {
-  text-align: center;
   height: 3px;
   width: 25%;
   margin: 40px auto;
   background-color: #005375;
+  text-align: center;
 }
 
 .about-us p {
@@ -571,10 +541,13 @@ body {
 
 .contact-us h4 {
   margin: 20px 0 10px 50px;
+  font-weight: 700;
 }
 
 .contact-us p {
   margin-left: 50px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 #map {
@@ -590,11 +563,11 @@ body {
 .footer {
   height: 300px;
   border-top: 2px solid #506983;
+  overflow: none;
   background-color: #005375;
   opacity: 0.88;
   text-align: center;
   color: white;
-  overflow: none;
 }
 
 .footer h3 {
@@ -636,6 +609,16 @@ body {
   color: #929292;
 }
 
+.footer .bottom-nav > li {
+  display: inline;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.footer .bottom-nav > li:hover {
+  color: #282828;
+}
+
 .bottom {
   position: relative;
   height: 60px;
@@ -645,11 +628,12 @@ body {
 
 .bottom .copyright {
   padding-top: 25px;
+  text-align: center;
   font-size: 11px;
   color: white;
-  text-align: center;
 }
 
+/* Initial mobile design */
 @media screen and (max-width: 720px) {
   .nav-collapse a {
     font-size: 18px;
@@ -659,6 +643,9 @@ body {
   .nav-toggle:before {
     font-size: 60px;
   }
+  .top-border h3 {
+    font-size: 22px;
+  }
 
   .slide h2 {
   padding: 0 15px;
@@ -667,36 +654,35 @@ body {
   margin-bottom: 50px;
 }
 
-.grid {
+  .grid {
   display: none;
 }
 
-.about-images p {
+  .about-images p {
   display: block;
 }
 
-.about-us p {
+  .about-us p {
   font-size: 18px;
 }
 
-.criteria p {
+  .criteria p {
   font-size: 18px;
 }
-.criteria ul {
+  .criteria ul {
   padding-left: 50px;
 }
 
-.pilot-staff p {
+  .pilot-staff p {
   font-size: 18px;
 }
-.contact-us h4 {
+  .contact-us h4 {
   margin-left: 20px;
 }
-.contact-us p {
+  .contact-us p {
   margin-left: 20px;
-  font-size: 36px;
 }
-#map {
+  #map {
   display: none;
 }
 }
