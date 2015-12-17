@@ -643,14 +643,19 @@ header {
   .nav-toggle:before {
     font-size: 60px;
   }
+
+  h1 {
+    padding-top: 15rem;
+  }
+  
   .top-border h3 {
     font-size: 22px;
   }
 
-  .slide h2 {
+  .slide h3 {
   padding: 0 15px;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
