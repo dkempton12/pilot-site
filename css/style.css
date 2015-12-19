@@ -70,13 +70,13 @@ h3 {
   margin: 0 auto;
   max-width: 600px;
   font-size: 26px;
-  color: #005375;
+  color: #1B3F8B;
 }
 
 h4 {
   font-size: 18px;
   font-weight: 500;
-  color: #005375;
+  color: #1B3F8B;
 }
 
 h5 {
@@ -85,7 +85,7 @@ h5 {
   /*text-transform: uppercase;*/
   /*letter-spacing: 1px;*/
   padding: 10px 0 10px 0;
-  color: #005375;
+  color: #1B3F8B;
 }
 
 p {
@@ -278,7 +278,7 @@ header {
   border-top: 1px solid white;
   background-color: #fff;
   text-decoration: none;
-  color: #005375;
+  color: #2F4252;
   font-size: 16px;
   font-weight: 500;
   width: 100%;
@@ -286,14 +286,20 @@ header {
 }
 
 .nav-collapse a:hover {
-  background-color: #005375;
+  background: #005375;
+  background: -webkit-linear-gradient(right, #005375, #1B3F8B);
+  background: -o-linear-gradient(right, #005375, #1B3F8B);
+  background: linear-gradient(to left, #005375, #1B3F8B);
   opacity: 0.88;
   color: white;
 }
 
 .nav-collapse a:active,
 .nav-collapse .active a {
-  background-color: #005375;
+  background: #005375;
+  background: -webkit-linear-gradient(right, #005375, #1B3F8B);
+  background: -o-linear-gradient(right, #005375, #1B3F8B);
+  background: linear-gradient(to left, #005375, #1B3F8B);
   opacity: 0.88;
   color: white;
 }
@@ -361,7 +367,7 @@ header {
 
 /* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
 .top-border {
-  height: 15rem;
+  height: 12rem;
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.44),
       rgba(0, 0, 0, 0.44)
@@ -376,7 +382,7 @@ header {
 }
 
 .top-border h3 {
-  padding-top: 130px;
+  padding-top: 110px;
   text-align: center;
   color: white;
 }
@@ -412,15 +418,26 @@ header {
   min-width: 300px;
   max-width: 600px;
   padding: 50px 15px 0 15px;
-  color: #005375;
 }
 
 .slide .mission {
   font-style: italic;
 }
 
+.slide h2 {
+  text-align: center;
+  color: #1B3F8B;
+}
+
+.slide hr {
+  margin: 10px auto 25px auto;
+  background-color: #1B3F8B;
+  width: 10%;
+}
+
 .slide h3 {
   font-weight: 300;
+  line-height: 30px;
 }
 
 .slide .fa-quote-left {
@@ -435,6 +452,7 @@ header {
   position: relative;
   height: auto;
   width: 100%;
+  padding-top: 55px;
   padding-bottom: 50px;
 }
 
@@ -442,6 +460,21 @@ header {
   height: auto;
   width: 300px;
   border: 1px solid #005375;
+}
+
+.home-images img:hover {
+  opacity: 0.2;
+}
+
+.home-images h5 {
+  position: absolute;
+  padding-left: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.home-images p {
+  display: none;
 }
 
 .properties li {
@@ -454,9 +487,19 @@ header {
 }
 
 /* About Us Image Grid */
+.about-images {
+  border-top: 1px solid #fff;
+  background: #005375;
+  background: -webkit-linear-gradient(right, #005375, #1B3F8B);
+  background: -o-linear-gradient(right, #005375, #1B3F8B);
+  background: linear-gradient(to left, #005375, #1B3F8B);
+}
+
 .about-images h2 {
-  margin: 30px auto 20px auto;
+  margin: 0 auto 20px auto;
+  padding-top: 30px;
   max-width: 600px;
+  color: white;
 }
 
 .about-images p {
@@ -493,8 +536,12 @@ header {
   height: 3px;
   width: 25%;
   margin: 40px auto;
-  background-color: #005375;
+  background-color: #1B3F8B;
   text-align: center;
+}
+
+.about-us h2 {
+  color: #1B3F8B;
 }
 
 .about-us p {
@@ -516,8 +563,8 @@ header {
 
 .pilot-staff {
   margin: 0 auto;
-  padding: 0 15px 54px 15px;
-  /*max-width: 600px;*/
+  padding: 0 15px 30px 15px;
+  max-width: 600px;
 }
 
 .pilot-staff h2 {
@@ -565,7 +612,10 @@ header {
   height: 300px;
   border-top: 2px solid #506983;
   overflow: none;
-  background-color: #005375;
+  background: #005375;
+  background: -webkit-linear-gradient(right, #005375, #1B3F8B);
+  background: -o-linear-gradient(right, #005375, #1B3F8B);
+  background: linear-gradient(to left, #005375, #1B3F8B);
   opacity: 0.88;
   text-align: center;
   color: white;
@@ -689,6 +739,10 @@ header {
   margin-left: 20px;
 }
   #map {
+  display: none;
+}
+
+.footer .bottom-nav {
   display: none;
 }
 }
