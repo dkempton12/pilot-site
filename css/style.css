@@ -62,7 +62,7 @@ h1 {
 h2 {
   padding: 15px 0 15px 0;
   font-size: 32px;
-  color: #005375;
+  color: #1B3F8B;
 }
 
 h3 {
@@ -100,7 +100,7 @@ hr {
   height: 3px;
   width: 25%;
   margin: 40px auto;
-  background-color: #005375;
+  background-color: #1B3F8B;
 }
 /* ------------------------------------------
    /// RESPONSIVE NAV ///
@@ -279,8 +279,9 @@ header {
   background-color: #fff;
   text-decoration: none;
   color: #2F4252;
+  font-family: 'Roboto Slab', arial;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   width: 100%;
   float: left;
 }
@@ -426,12 +427,10 @@ header {
 
 .slide h2 {
   text-align: center;
-  color: #1B3F8B;
 }
 
 .slide hr {
   margin: 10px auto 25px auto;
-  background-color: #1B3F8B;
   width: 10%;
 }
 
@@ -459,16 +458,17 @@ header {
 .home-images img {
   height: auto;
   width: 300px;
-  border: 1px solid #005375;
+  border: 1px solid #1B3F8B;
 }
 
-.home-images img:hover {
+/*.home-images img:hover {
   opacity: 0.2;
-}
+}*/
 
 .home-images h5 {
   position: absolute;
   padding-left: 10px;
+  font-family: 'Roboto Slab', arial;
   font-weight: 700;
   color: white;
 }
@@ -536,12 +536,7 @@ header {
   height: 3px;
   width: 25%;
   margin: 40px auto;
-  background-color: #1B3F8B;
   text-align: center;
-}
-
-.about-us h2 {
-  color: #1B3F8B;
 }
 
 .about-us p {
@@ -563,13 +558,12 @@ header {
 
 .pilot-staff {
   margin: 0 auto;
-  padding: 0 15px 30px 15px;
+  padding: 0 15px 50px 15px;
   max-width: 600px;
 }
 
-.pilot-staff h2 {
-  margin: 0 auto;
-  max-width: 600px;
+.pilot-staff p {
+  padding-bottom: 10px;
 }
 
 .contact-us {
@@ -655,9 +649,13 @@ header {
 }
 
 .footer .copyright {
-  margin-top: 50px; 
+  padding-top: 20px; 
   font-size: 12px;
   color: #929292;
+}
+
+.footer .bottom-nav {
+  padding-bottom: 20px;
 }
 
 .footer .bottom-nav > li {
@@ -698,6 +696,14 @@ header {
   h1 {
     padding-top: 15rem;
   }
+
+  .intro {
+  position: relative;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.24),
+      rgba(0, 0, 0, 0.24)
+    ), url('../images/boston-opt.jpg');
+}
 
   .top-border h3 {
     font-size: 22px;
