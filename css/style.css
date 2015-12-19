@@ -716,6 +716,10 @@ header {
   margin-bottom: 50px;
 }
 
+.home-images .properties img {
+  margin-bottom: 10px;
+}
+
   .grid {
   display: none;
 }
