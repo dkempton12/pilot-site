@@ -460,15 +460,17 @@ header {
   text-align: center;
 }
 
+.home-images .properties li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .home-images img {
   height: auto;
   width: 300px;
   border: 1px solid #1B3F8B;
 }
-
-/*.home-images img:hover {
-  opacity: 0.2;
-}*/
 
 .home-images h5 {
   position: absolute;
@@ -476,15 +478,6 @@ header {
   font-family: 'Roboto Slab', arial;
   font-weight: 700;
   color: white;
-}
-
-.home-images p {
-  display: none;
-}
-
-.properties li {
-  display: inline-block;
-  margin-left: 30px;
 }
 
 .cycle-slideshow img {
@@ -714,6 +707,11 @@ header {
       rgba(0, 0, 0, 0.24)
     ), url('../images/boston-opt.jpg');
 }
+  
+  .top-border {
+    width: 100%;
+    padding: 0 15px;
+  }
 
   .top-border h3 {
     font-size: 22px;
@@ -731,7 +729,7 @@ header {
   width: 100%;
 }
 .home-images .properties img {
-  width: 220px;
+  width: 250px;
   height: auto;
   margin-bottom: 10px;
 }
@@ -754,9 +752,12 @@ header {
   .criteria ul {
   padding-left: 50px;
 }
-
+  .pilot-staff {
+    width: 100%;
+    padding: 0 15px;
+  }
   .pilot-staff p {
-  font-size: 18px;
+  font-size: 16px;
 }
   .contact-us h4 {
   margin-left: 20px;
