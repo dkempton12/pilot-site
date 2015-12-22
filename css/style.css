@@ -408,7 +408,7 @@ header {
 
 .intro .fa-chevron-down {
   position: absolute;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   bottom: 0px;
   text-align: center;
   font-size: 36px;
@@ -706,6 +706,14 @@ header {
       rgba(0, 0, 0, 0.24),
       rgba(0, 0, 0, 0.24)
     ), url('../images/boston-opt.jpg');
+}
+
+.intro .main h1 {
+  font-size: 28px;
+}
+
+.intro .fa-chevron-down {
+  display: none;
 }
   
   .top-border {
