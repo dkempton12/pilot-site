@@ -494,12 +494,13 @@ header {
   background: -webkit-linear-gradient(right, #005375, #1B3F8B);
   background: -o-linear-gradient(right, #005375, #1B3F8B);
   background: linear-gradient(to left, #005375, #1B3F8B);
+  text-align: center;
 }
 
 .about-images h2 {
-  margin: 0 auto 20px auto;
-  padding-top: 30px;
-  max-width: 600px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
   color: white;
 }
 
@@ -573,13 +574,16 @@ header {
 }
 
 .contact-us h3 {
-  text-align: center;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .contact-us hr {
   height: 2px;
   width: 5%;
   margin-top: 20px;
+  text-align: left;
+  margin-left: 75px;
 }
 
 .contact-us h4 {
@@ -745,12 +749,9 @@ header {
   margin-bottom: 10px;
 }
 
-  .grid {
-  display: none;
-}
-
-  .about-images p {
-  display: block;
+ .grid img {
+  height: 58px;
+  width: 80px;
 }
 
   .about-us p {
