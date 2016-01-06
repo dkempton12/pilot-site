@@ -80,14 +80,6 @@ body {
   overflow-x: hidden;
 }
 
-section {
-  border-bottom: 1px solid #999;
-  text-align: center;
-  padding: 100px 0 0;
-  height: 800px;
-  width: 100%;
-}
-
 h1 {
   font-size: 40px;
   padding-top: 22rem;
@@ -416,7 +408,6 @@ header {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  width: 100%;
   overflow: hidden;
   text-align: center;
   color: white;
@@ -438,7 +429,7 @@ header {
   background-position: center;
   height: 36rem;
   overflow: none;
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
   text-shadow: 4px 4px 4px #005375;
 }
@@ -490,7 +481,7 @@ header {
 /* New Image Layout for Home Page */
 .home-images {
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
   padding-top: 55px;
   padding-bottom: 50px;
 }
@@ -714,7 +705,6 @@ header {
 .bottom {
   position: relative;
   height: 60px;
-  width: 100%;
   background-color: #282828;
 }
 
