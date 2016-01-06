@@ -134,6 +134,24 @@ hr {
   margin: 40px auto;
   background-color: #1B3F8B;
 }
+
+.btn {
+  display: block;
+  margin: 50px auto 44px auto;
+  padding: 10px 10px;
+  width: 20%;
+   background-color: white;
+  border: 1px solid #005375;
+  text-align: center;
+  text-decoration: none;
+  color: #005375;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #005375;
+  color: white;
+}
 /* ------------------------------------------
    /// RESPONSIVE NAV ///
 --------------------------------------------- */
@@ -516,7 +534,6 @@ header {
 
 /* About Us Image Grid */
 .about-images {
-  border-top: 1px solid #fff;
   background: #005375;
   background: -webkit-linear-gradient(right, #005375, #1B3F8B);
   background: -o-linear-gradient(right, #005375, #1B3F8B);
@@ -557,7 +574,7 @@ header {
 .about-us {
   margin: 0 auto;
   padding: 0 15px 54px 15px;
-  max-width: 600px;
+  max-width: 680px;
 }
 
 .about-us hr {
@@ -569,19 +586,45 @@ header {
 
 .about-us p {
   padding-bottom: 10px;
+  max-width: 720px;
 }
 
 .criteria {
-  margin-top: 20px;
-  padding: 0 15px 30px 15px;
+  margin: 20px auto 0 auto;
+  padding: 0 15px 55px 15px;
+  max-width: 680px;
+}
+
+.criteria h3 {
+  padding-top: 44px;
+}
+
+.criteria p {
+  max-width: 680px;
 }
 
 .criteria ul {
    margin: 0 auto;
    padding: 10px 0 10px 100px;
-   max-width: 600px;
+   max-width: 680px;
    min-width: 320px;
    list-style-type: square;
+}
+
+.col-group > div {
+  padding: 1em;
+  margin-bottom: 1em;  
+}
+
+@media screen and (min-width: 44em) {
+  .col-group {
+    overflow: hidden;
+  }
+
+  .col-group > div {
+    float: left;
+    width: 50%;
+  }
 }
 
 .cases h3 {
@@ -590,40 +633,47 @@ header {
 
 .pilot-staff {
   margin: 0 auto;
-  /*padding: 0 15px 50px 15px;*/
-  max-width: 600px;
+  padding-bottom: 55px;
+  max-width: 680px;
+}
+
+.pilot-staff h3 {
+  padding-top: 44px;
 }
 
 .pilot-staff p {
   padding-bottom: 10px;
+  max-width: 680px;
 }
 
-.contact-us {
-  position: relative;
-  padding-bottom: 40px;
+#contact-us {
+  margin-left: 15px;
+  padding-bottom: 44px;
 }
 
-.contact-us h3 {
-  text-align: left;
-  margin-left: 50px;
+#contact-us h2 {
+  padding-bottom: 50px;
+  text-align: center;
 }
 
-.contact-us hr {
-  height: 2px;
-  width: 5%;
-  margin: 20px 0 0 75px;
-  text-align: left;
+#contact-us h4 {
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
-.contact-us h4 {
-  margin: 20px 0 10px 50px;
-  font-weight: 700;
+.col-group > div {
+  margin: 0 auto;
+  padding: 1em 1em 0;
 }
 
-.contact-us p {
-  margin-left: 50px;
-  font-size: 16px;
-  font-weight: 500;
+@media screen and (min-width: 50em) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 25%;
+  }
 }
 
 #map {
@@ -778,10 +828,6 @@ header {
   width: 80px;
 }
 
-  .about-us p {
-  font-size: 18px;
-}
-
   .criteria p {
   font-size: 18px;
 }
@@ -792,12 +838,6 @@ header {
     padding: 0 15px;
   }
 
-  .contact-us h4 {
-  margin-left: 20px;
-}
-  .contact-us p {
-  margin-left: 20px;
-}
   #map {
   display: none;
 }
@@ -816,6 +856,10 @@ header {
 }
 
 @media screen and (max-width: 480px) {
+  .btn {
+    font-size: 14px;
+  }
+
   .focus hr {
     margin-bottom: 0;
   }
