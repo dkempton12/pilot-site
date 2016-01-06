@@ -728,7 +728,7 @@ header {
 /* Initial mobile design */
 @media screen and (max-width: 720px) {
   header {
-    /*width: 100%;*/
+    width: 100%;
   }
   .nav-collapse a {
     font-size: 18px;
@@ -759,7 +759,7 @@ header {
 }
   
   .top-border {
-   /* width: 100%;*/
+    width: 100%;
     padding: 0 15px;
   }
 
@@ -776,7 +776,7 @@ header {
 
 .home-images {
   padding: 0 15px;
- /* width: 100%;*/
+  width: 100%;
 }
 .home-images .properties img {
   width: 250px;
@@ -818,7 +818,7 @@ header {
 
 .footer {
   padding: 0 15px;
-  /*width: 100%;*/
+  width: 100%;
 }
 
 .footer .bottom-nav {
@@ -827,7 +827,7 @@ header {
 
 .bottom {
   padding: 0 15px;
-  /*width: 100%;*/
+  width: 100%;
 }
 }
 
@@ -841,3 +841,4 @@ header {
     line-height: 22px;
     padding-top: 30px;
   }
+}
