@@ -749,7 +749,6 @@ header {
 }
   
   .top-border {
-    width: 100%;
     padding: 0 15px;
   }
 
@@ -808,7 +807,6 @@ header {
 
 .footer {
   padding: 0 15px;
-  width: 100%;
 }
 
 .footer .bottom-nav {
@@ -817,7 +815,6 @@ header {
 
 .bottom {
   padding: 0 15px;
-  width: 100%;
 }
 }
 
