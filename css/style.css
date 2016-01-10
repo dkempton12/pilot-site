@@ -627,8 +627,48 @@ header {
   }
 }
 
-.cases h3 {
+#cases {
+  padding: 0 0 20px 0;
+}
+
+#cases h3 {
+  width: 100%;
+  margin-bottom: 50px;
   text-align: center;
+  background: #005375;
+  background: -webkit-linear-gradient(right, #005375, #1B3F8B);
+  background: -o-linear-gradient(right, #005375, #1B3F8B);
+  background: linear-gradient(to left, #005375, #1B3F8B);
+  opacity: 0.88;
+  color: white;
+}
+
+.cases-image {
+  float: left;
+  padding: 0 15px;
+}
+
+.cases-image img {
+  height: auto;
+  width: 220px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.cases-content {
+  padding: 0 15px;
+}
+
+.cases-content h4 {
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-bottom: 15px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.cases-content p {
+  margin-bottom: 10px;
 }
 
 .pilot-staff {
