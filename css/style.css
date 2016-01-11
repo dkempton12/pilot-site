@@ -717,7 +717,6 @@ header {
 }
 
 #map {
-  display: none;
   position: absolute;
   top: 400px;
   right: 50px;
