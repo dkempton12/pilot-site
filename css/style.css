@@ -418,10 +418,10 @@ header {
 
 /* TOP BORDER FOR ALL PAGES, EXCEPT HOME */
 .top-border {
-  height: 12rem;
+  height: 15rem;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.44),
-      rgba(0, 0, 0, 0.44)
+      rgba(0, 0, 0, 0.24),
+      rgba(0, 0, 0, 0.24)
     ), url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-position: center top;
@@ -432,7 +432,7 @@ header {
 }
 
 .top-border h3 {
-  padding-top: 110px;
+  padding-top: 130px;
   text-align: center;
   color: white;
 }
